@@ -50,6 +50,9 @@ Structured tabular dataset with key patient features:
   Logistic Regression
 <img width="519" height="260" alt="image" src=https://github.com/AmiraHisham19/Heart-attack-Predication/blob/564c0f2306d6a34dad5d896b0ce125eaa825b488/visuals/download%20(14).png />
 
+<img width="537" height="274" alt="image" src="https://github.com/user-attachments/assets/2c9d0556-ec6b-4f87-933a-f921ef7e4550" />
+
+
 ### 🔹 Model Evaluation
 - Focused on **bias-variance tradeoff**, not just high scores
 - Metrics: Precision, Recall, F1-Score, Training Time
