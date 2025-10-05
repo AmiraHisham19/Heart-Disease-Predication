@@ -53,6 +53,10 @@ Structured tabular dataset with key patient features:
 <img width="537" height="274" alt="image" src="https://github.com/user-attachments/assets/2c9d0556-ec6b-4f87-933a-f921ef7e4550" />
 
 
+
+![15](visuals/15.png)
+
+
 ### 🔹 Model Evaluation
 - Focused on **bias-variance tradeoff**, not just high scores
 - Metrics: Precision, Recall, F1-Score, Training Time
