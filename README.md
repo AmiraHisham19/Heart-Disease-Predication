@@ -23,7 +23,7 @@ Structured tabular dataset with key patient features:
 - Verified variable types
 - Handled duplicates
 - Detected outliers using z-scores
-
+<img width="642" height="143" alt="image" src="https://github.com/user-attachments/assets/7e1eca3f-b0c3-468c-9deb-ca9bbff8a33c" />
 ### 🔹 Exploratory Data Analysis
 - Visualized class balance (heart attack vs. no heart attack)
 - Categorized variables into discrete and continuous
