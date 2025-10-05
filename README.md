@@ -1,5 +1,5 @@
 # 🫀 Heart Attack Prediction using Machine Learning
-
+![dataset-cover](visuals/dataset-cover.png)
 ## ❤️ Why Early Detection Matters
 
 - Cardiovascular diseases are the leading cause of death globally, responsible for **32% of all deaths**.
