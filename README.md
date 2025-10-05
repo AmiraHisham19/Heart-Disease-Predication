@@ -68,7 +68,7 @@ Structured tabular dataset with key patient features:
 
 ## ✅ Results & Insights
 
-- **Best Performing Model**: `XGBoost`
+- **Best Performing Model**: `Augmented XGBoost`
 - **Top Predictive Features**:
   - Chest pain type
   - Thalium stress test results
@@ -77,3 +77,6 @@ Structured tabular dataset with key patient features:
 ![18](visuals/18.png)
 ![19](visuals/19.png)
 ---
+
+**Author**: Amira Hisham – Pharmacist & Healthcare Data Analyst
+This project is part of my healthcare analytics portfolio. I’m passionate about bridging clinical insight with machine learning to improve patient outcomes.
