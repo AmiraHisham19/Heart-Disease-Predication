@@ -56,7 +56,7 @@ Structured tabular dataset with key patient features:
 
 ![15](visuals/15.png)
 
-
+![17](visuals/17.png)
 ### 🔹 Model Evaluation
 - Focused on **bias-variance tradeoff**, not just high scores
 - Metrics: Precision, Recall, F1-Score, Training Time
@@ -73,7 +73,6 @@ Structured tabular dataset with key patient features:
   - Chest pain type
   - Thalium stress test results
   - Number of major vessels affected
-
+![18](visuals/18.png)
+![19](visuals/19.png)
 ---
-
-## 📁 Project Structure
