@@ -73,6 +73,7 @@ Structured tabular dataset with key patient features:
   - Chest pain type
   - Thalium stress test results
   - Number of major vessels affected
+![20](visuals/20.png)
 ![18](visuals/18.png)
 ![19](visuals/19.png)
 ---
