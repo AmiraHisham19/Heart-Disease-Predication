@@ -35,6 +35,7 @@ Structured tabular dataset with key patient features:
 ![5](visuals/5.png)
 ### 🔹 Feature Engineering
 - Applied normalization to ensure equal feature contribution during model learning
+<img width="419" height="160" alt="image" src="https://github.com/user-attachments/assets/28d6778b-9b0d-4ea1-abfe-68dabd392c1b" />
 
 ### 🔹 Feature Selection
 - Retained all features due to correlation with the target
