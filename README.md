@@ -28,8 +28,9 @@ Structured tabular dataset with key patient features:
 - Visualized class balance (heart attack vs. no heart attack)
 - Categorized variables into discrete and continuous
 - Used histograms and distribution curves to assess skewness
-![download (9)](visuals/download(9).png)
-
+![1](visuals/1.png)![2](visuals/2.png)
+![3](visuals/3.png)![4](visuals/4.png)
+![5](visuals/5.png)
 ### 🔹 Feature Engineering
 - Applied normalization to ensure equal feature contribution during model learning
 
