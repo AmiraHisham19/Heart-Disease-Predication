@@ -24,6 +24,8 @@ Structured tabular dataset with key patient features:
 - Handled duplicates
 - Detected outliers using z-scores
 <img width="642" height="143" alt="image" src="https://github.com/user-attachments/assets/7e1eca3f-b0c3-468c-9deb-ca9bbff8a33c" />
+<img width="242" height="443" alt="image" src="https://github.com/AmiraHisham19/Heart-attack-Predication/blob/ef5ab998e760cbd95ddeab261976f5452e848288/visuals/7.png"  />
+
 ### 🔹 Exploratory Data Analysis
 - Visualized class balance (heart attack vs. no heart attack)
 - Categorized variables into discrete and continuous
