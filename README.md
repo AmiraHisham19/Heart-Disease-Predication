@@ -1,5 +1,5 @@
 # 🫀 Heart Attack Prediction using Machine Learning
-![dataset-cover](visuals/dataset-cover.png)
+![dataset-cover](visuals/dataset-cover.jpeg)
 ## ❤️ Why Early Detection Matters
 
 - Cardiovascular diseases are the leading cause of death globally, responsible for **32% of all deaths**.
@@ -28,6 +28,7 @@ Structured tabular dataset with key patient features:
 - Visualized class balance (heart attack vs. no heart attack)
 - Categorized variables into discrete and continuous
 - Used histograms and distribution curves to assess skewness
+![download (9)](visuals/download(9).png)
 
 ### 🔹 Feature Engineering
 - Applied normalization to ensure equal feature contribution during model learning
