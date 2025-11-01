@@ -92,5 +92,6 @@ Structured tabular dataset with key patient features:
 
 **Statistical Analysis:** Z-scores, correlation analysis
 
-**Author**: Amira Hisham – Pharmacist & Healthcare Data Analyst
+## Author
+Amira Hisham – Pharmacist & Healthcare Data Analyst
 This project is part of my healthcare analytics portfolio. I’m passionate about bridging clinical insight with Machine learning to improve patient outcomes.
