@@ -77,6 +77,20 @@ Structured tabular dataset with key patient features:
 ![18](visuals/18.png)
 ![19](visuals/19.png)
 ---
+## Technical Stack
+
+ **Machine Learning:** Classification algorithms, hyperparameter tuning
+
+ **Data Preprocessing:** Cleaning, normalization, outlier detection, feature engineering
+
+ **Model Evaluation:** Cross-validation, bias-variance tradeoff, confusion matrices
+
+**Python Libraries:** scikit-learn, XGBoost, Tensorflow,pandas, numpy, matplotlib, seaborn
+
+**Healthcare Domain:** Understanding clinical metrics, interpreting medical features, 
+                         prioritizing recall for patient safety
+
+**Statistical Analysis:** Z-scores, correlation analysis
 
 **Author**: Amira Hisham – Pharmacist & Healthcare Data Analyst
-This project is part of my healthcare analytics portfolio. I’m passionate about bridging clinical insight with machine learning to improve patient outcomes.
+This project is part of my healthcare analytics portfolio. I’m passionate about bridging clinical insight with Machine learning to improve patient outcomes.
