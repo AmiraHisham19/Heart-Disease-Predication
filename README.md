@@ -1,9 +1,9 @@
-# 🫀 Heart Attack Prediction using Machine Learning
+# 🫀 Heart Disease Risk Prediction using Machine Learning
 ![dataset-cover](visuals/dataset-cover.jpeg)
 ## ❤️ Why Early Detection Matters
 
 - Cardiovascular diseases are the leading cause of death globally, responsible for **32% of all deaths**.
-- Predictive models can flag high-risk individuals **before symptoms appear**, enabling timely intervention and clinical decision support.
+- Predictive models can flag high-risk individuals enabling timely intervention and clinical decision support.
 
 ---
 
@@ -27,7 +27,7 @@ Structured tabular dataset with key patient features:
 <img width="242" height="443" alt="image" src="https://github.com/AmiraHisham19/Heart-attack-Predication/blob/ef5ab998e760cbd95ddeab261976f5452e848288/visuals/7.png"  />
 
 ### 🔹 Exploratory Data Analysis
-- Visualized class balance (heart attack vs. no heart attack)
+- Visualized class balance (High heart Disease Risk  vs. Low heart heart Disease Risk)
 - Categorized variables into discrete and continuous
 - Used histograms and distribution curves to assess skewness
 ![1](visuals/1.png)![2](visuals/2.png)
@@ -39,7 +39,7 @@ Structured tabular dataset with key patient features:
 
 ### 🔹 Feature Selection
 - Retained all features due to correlation with the target
-- Used L1 regularization and feature importance methods during modeling
+- Used L2 regularization and feature importance methods during modeling
 
 ### 🔹 Model Development
 - Classification algorithms used:
@@ -59,7 +59,7 @@ Structured tabular dataset with key patient features:
 ![17](visuals/17.png)
 ### 🔹 Model Evaluation
 - Focused on **bias-variance tradeoff**, not just high scores
-- Metrics: Precision, Recall, F1-Score, Training Time
+- Metrics: Precision, Recall, F1-Score, Training Time ,ROC AUC
 - Prioritized **Recall** over Precision for clinical relevance:
   - **Recall**: Of all actual heart attack cases, how many did we correctly identify?
   - **Precision**: Of all patients flagged as at risk, how many truly are?
@@ -68,7 +68,7 @@ Structured tabular dataset with key patient features:
 
 ## ✅ Results & Insights
 
-- **Best Performing Model**: `Augmented XGBoost`
+- **Best Performing Model**: `Random Forest`
 - **Top Predictive Features**:
   - Chest pain type
   - Thalium stress test results
