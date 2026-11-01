@@ -3,7 +3,7 @@ from heart_disease.data import load_clean,features,target
 def test_patient_counts():
   df = load_clean()
   assert len(df) == 302                                  # 303 rows minus 1 duplicate
-  assert target(df).sum == 138                           # patients with disease
+  assert int(target(df).sum()) == 138                         # patients with disease
 
 def test_cp_and_raw_target_removed():
     df = load_clean()
