@@ -2,7 +2,7 @@
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DATA_PATH = ROOT / "data" / "heart.csv"
+DATA_PATH = ROOT / "Data" / "heart.csv"
 MODELS_DIR = ROOT / "models"
 MODEL_PATH = MODELS_DIR / "heart_attack_pipeline.pkl"
 FEATURES_PATH = MODELS_DIR / "features.pkl"
