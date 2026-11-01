@@ -1,4 +1,6 @@
-   flask
+   flask 
    joblib
    pandas
    scikit-learn==1.6.1
+   jupyter
+   pytest
