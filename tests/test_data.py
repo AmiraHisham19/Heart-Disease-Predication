@@ -1,4 +1,4 @@
-from heart_diease.data import load_clean,features,target
+from heart_disease.data import load_clean,features,target
 
 def test_patient_counts():
   df = load_clean()
