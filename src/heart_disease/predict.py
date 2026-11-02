@@ -34,6 +34,35 @@ def check_inputs (row: dict) -> list[str]:
       problems.append(f"'{name}' must be one of {sorted(config.CODES[names])}, got {value}")
   return problems
 
-
+def predict_proba(rows: list[dict], model=None):
+    """Disease probability (0 to 1) for each patient in `rows`."""
+    if model is None:
+        model = load_model()
+    X = pd.DataFrame(rows)[config.FEATURES]      # same columns, same order as training
+    return model.predict_proba(X)[:, 1]          # column 1 = disease
+ 
+ 
+def predict_one(row: dict, model=None) -> dict:
+    """Validate one patient and return the probability and a label."""
+    problems = check_inputs(row)
+    if problems:
+        raise ValueError("; ".join(problems))
+    prob = float(predict_proba([row], model)[0])
+    label = ("Higher likelihood of heart disease" if prob >= THRESHOLD
+             else "Lower likelihood of heart disease")
+    return {"probability": round(prob * 100, 1), "label": label}
+ 
+ 
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Estimate heart disease risk for one patient.")
+    parser.add_argument("--json", required=True, help="One patient as a JSON object")
+    row = json.loads(parser.parse_args().json)
+    result = predict_one(row)
+    print(f"{result['label']} ({result['probability']}%)")
+ 
+ 
+if __name__ == "__main__":
+    main()
+ 
 
 
