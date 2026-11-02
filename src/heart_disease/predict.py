@@ -5,7 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 import joblib
-import pandas
+import pandas as pd
 from . import config
 
 THERESHOLD = 0.5
