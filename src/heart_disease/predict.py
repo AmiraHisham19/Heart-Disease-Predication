@@ -8,7 +8,7 @@ import joblib
 import pandas as pd
 from . import config
 
-THERESHOLD = 0.5
+THERSHOLD = 0.5
 
 def load_model(path =config.MODEL_PATH):
   if not path.exists():
@@ -48,7 +48,7 @@ def predict_one(row: dict, model=None) -> dict:
     if problems:
         raise ValueError("; ".join(problems))
     prob = float(predict_proba([row], model)[0])
-    label = ("Higher likelihood of heart disease" if prob >= THRESHOLD
+    label = ("Higher likelihood of heart disease" if prob >= THERSHOLD
              else "Lower likelihood of heart disease")
     return {"probability": round(prob * 100, 1), "label": label}
  
