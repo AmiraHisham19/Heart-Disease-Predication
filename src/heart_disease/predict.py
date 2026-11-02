@@ -28,7 +28,7 @@ def check_inputs (row: dict) -> list[str]:
       continue
     if name in config.LIMITS:
       low,high = config.LIMITS[name]
-      if not low <= value <= high::
+      if not low <= value <= high:
         problems.append(f"'{name}' must be between {low} and {high}, got {value}")
     elif value not in config.CODES[name]:
       problems.append(f"'{name}' must be one of {sorted(config.CODES[name])}, got {value}")
